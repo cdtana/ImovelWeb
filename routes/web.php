@@ -22,3 +22,9 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 //rotas da tabela corretores
 Route::get('/corretores','CorretorController@index')->name('corretores.index');
+//rotas da tabela proprietarios
+Route::get('/proprietarios','ProprietariosController@index')->name('proprietarios.index');
+
+
+
+
